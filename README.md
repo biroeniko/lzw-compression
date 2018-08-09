@@ -24,11 +24,17 @@ This program have been tested on Ubuntu 16.04 but should work under any systems 
 
 ## Usage instructions
 
-For running the script, you have to provide the input string, the search window size and the preview window size, for example:
+For running the lz77.py script, you have to provide the input string, the search window size and the preview window size, for example:
 ```
 python3 lz77.py abracadabra 8 3
 ```
-
+The other two algorithms don't need additional parameters.
+```
+python3 lz77.py abrakadabra
+```
+```
+python3 lzw.py abrakadabra
+```
 ## Authors
 
 * **Biró Enikő** - [BiroEniko](https://github.com/biroeniko)
